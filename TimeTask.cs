@@ -2,7 +2,7 @@ namespace TaskManagerPro;
 
 public class TimeTask : BaseTask
 {
-    public int Minutes { get; private set; }
+    public int Minutes { get; protected set; }
 
     public TimeTask(string title, int minutes) : base(title)
     {
