@@ -4,7 +4,8 @@ using TaskManagerPro;
 var tasks = new List<ITask>
 {
     new SimpleTask("Buy groceries"),
-    new SimpleTask("Email Professor")
+    new SimpleTask("Email Professor"),
+    new TimeTask("Study algorithms", 45)
 };
 
 foreach (var task in tasks)
@@ -20,3 +21,5 @@ foreach (var task in tasks)
 {
     task.Display();
 }
+
+
